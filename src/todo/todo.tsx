@@ -41,7 +41,6 @@ function Todo() {
   };
   const openText = () => {
     openTextBox(!textBox);
-    openModel(!model);
   };
   const addTask = () => {
     if (taskText.trim()) {
